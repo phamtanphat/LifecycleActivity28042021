@@ -3,25 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SecondActivity">
+    android:layout_height="match_parent">
 
     <TextView
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:textColor="#039BE5"
+        android:textColor="#FB8C00"
         android:textSize="40sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Second Activity" />
+        android:text="Third Activity" />
 
     <Button
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        android:text="Navigate Third Activity"
-        android:id="@+id/buttonNavigateThirdActivity"
+        android:text="Navigate Main Activity"
+        android:id="@+id/buttonNavigateMainActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-
 </LinearLayout>
